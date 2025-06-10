@@ -206,6 +206,30 @@
             ]
         },
         {
+                        "name": "Rumble",
+            "common": true,
+            "stream_key_link": "https://dashboard.twitch.tv/settings/stream",
+            "servers": [
+                {
+                    "name": "Studio RTMP",
+                    "url": "rtmp://studio-rtmp.rumble.com/live"
+                },
+                {
+                    "name": "RTMP",
+                    "url": "rtmp://rtmp.rumble.com/live"
+                }
+                
+            ],
+            "recommended": {
+                "keyint": 2,
+                "max video bitrate": 6000,
+                "max audio bitrate": 320,
+                "x264opts": "scenecut=0"
+            },
+            "supported video codecs": [
+                "h264"
+            ]
+        {
             "name": "YouTube - HLS",
             "common": false,
             "more_info_link": "https://developers.google.com/youtube/v3/live/guides/ingestion-protocol-comparison",
