@@ -206,7 +206,7 @@
             ]
         },
         {
-                        "name": "Rumble",
+            "name": "Rumble",
             "common": true,
             "stream_key_link": "https://dashboard.twitch.tv/settings/stream",
             "servers": [
@@ -229,6 +229,7 @@
             "supported video codecs": [
                 "h264"
             ]
+        },
         {
             "name": "YouTube - HLS",
             "common": false,
